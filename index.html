@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <title></title>
+        <meta name="Generator" content="Cocoa HTML Writer">
+        <meta name="CocoaVersion" content="1504">
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
+        <!-- external added link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- jQuery -->
+        <script src="js/main.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+    
+        
+        
+        <style type="text/css">    
+            body
+            {
+                font-family: voltaire;
+            }
+            
+            
+            .hero{
+                position: absolute;
+                width:700px;
+                left:30%;
+                top:49%;
+                font-family:pacifico;
+                font-size: 3px;                
+                transform: translate(-50%,-50%)
+            }
+            
+            
+            header{
+                background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/aurore.jpg);
+                height:70vh;
+                background-position: center;
+                background-size:cover;
+            }
+            
+            
+            .main-nav
+            {
+                float:right;
+                list-style: none;
+                margin-right: 10px;    
+            }
+            
+            
+            .main-nav li
+            {
+                display: inline-block;
+                margin-left: 15px;                
+            }
+            
+            
+            .main-nav li a
+            {
+                color:black;
+                text-decoration: none;
+                font-size:90%;
+                text-align: center;
+                font-weight: bold;
+                margin-right: 10px;
+                
+            }
+            
+            
+            .main-nav li a:hover
+            {
+                color:#e67e22;
+                display: inline-block;
+                border-bottom: 2px solid #e67e22;
+                transition: all 0.5s ease-in;
+                padding: 10px ;
+                
+            }
+            
+            
+            .navbar-inverse
+            {
+                color:#e67e22;
+                background-color:#FFFFFF;
+                font-family: pacifico;
+                       
+            }
+            
+            
+            .navbar{
+                color:#e67e22;
+            }
+            
+            
+            .navbar-nav li a:hover
+            {
+                color:#e67e22 !important;
+                border-bottom: 2px solid #e67e22;
+                transition: all 0.3s ease-in;
+                padding: 12px ; 
+                
+            }
+            .navbar-nav li a:active,
+            .navbar-nav li a:focus, 
+            {
+                color:#e67e22;
+            }
+            
+            
+            .copy
+            {
+                width: 70%;
+                margin-left: 10%;
+            }
+            
+            
+            .copy2
+            {
+                width: 70%;
+                margin-left: 10%;
+                text-decoration-color: white;
+            }
+            
+            
+             h3
+            {
+                margin-top: 20px;
+                color:#e67e22;
+            } 
+            
+            
+            
+            
+            
+            h3:after
+            {
+                width:100px;
+                height: 2px;
+                background-color: black;
+                display: block;
+                content:" ";
+                margin:0 auto;
+                margin-top: 10px;
+                
+            }
+            
+            .level{
+                color:antiquewhite;
+                margin-left: 30px;
+            }
+            
+            
+            .essai
+            {
+                background-color: RGB(31, 38, 59);
+                
+            }
+            
+            
+            .language
+            {
+            background-color: white;
+            }
+            
+            
+            .tet
+            {
+                
+                color:white;
+                margin-top: 15px;
+                
+            }
+            
+            .fa {
+  
+                padding: 10px;
+                font-size: 30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 3px;
+                border-radius: 50%;
+            }
+
+            .fa:hover {
+                opacity: 0.7;
+                
+            }
+            
+            .fa-google {
+                
+                
+                text-align: center;
+            }
+            .fa-linkedin {
+                background: #007bb5;
+                color: white;
+            }
+            .rose:hover
+            
+            {
+                color: palevioletred;
+            }
+            .title{
+                color: whitesmoke;
+            }
+            .bar{
+                background-color:#f2f2f1;
+                width:100%;
+                height:16px;
+                margin-bottom:40px;
+                margin-right: 100px;
+            }
+    
+            .bar-inner{
+                background-color:#e67e22;
+                width:0%;
+                height:16px;
+                position:relative;
+
+            }
+    
+            .bar-inner:after{
+    
+                position:absolute;
+                right:2.5%;
+                content:attr(data-percent);
+                -webkit- transition: width 10000ms linear;
+                -moz- transition: width 10000ms linear;
+                transition: width 10000ms linear;
+                
+                
+                    
+            }
+            .bar-title{
+            
+                font-weight: 700;
+                text-transform:uppercase;
+                font-size:22px;
+                color:#566366;
+                
+                
+            }
+            
+            h1:after{
+                margin-top: auto;
+            }
+            .container{
+                width:auto;
+            }
+            
+             .bar-90{
+                width:90%
+            }
+            .bar-80{
+                width:80%
+            }
+            .bar-70{
+                width:70%
+            }
+            .bar-60{
+                width:60%
+            }
+            .fa-star{
+                color: black;
+                font-size: 20px;
+            }
+            .fa-star-half{
+                color:black;
+                font-size: 20px;
+            }
+            .tswira{
+                border-color: black;
+                border-width: 7px;
+                border-style: double solid;
+                border-radius: 80px;
+            }
+            .education .item {
+                margin-bottom: 30px;
+            }
+            .education .item:last-child {
+                margin-bottom: 0;
+            }   
+            .education .item .title {
+                font-size: 16px;
+                margin-top: 0;
+            }
+            .education .item .university {
+                font-family: "Lato", arial, sans-serif;
+                font-size: 13px;
+                color: #999;
+                font-weight: 600;
+                padding-left: 25px;
+            }
+            .education .item .university .year {
+                color: #b0b7bf;
+                font-weight: 500;
+
+            
+        </style>
+    
+    </head>
+
+    
+    <body>
+        <header>
+            
+            <nav class="navbar navbar-inverse navbar-fixed-top ">
+                <div class="container-fluid">
+                    <div class="navbar-header"><a class="navbar-brand" href="#">PortFolio</a>
+                    </div>    
+                <ul class="nav navbar-nav navbar-right" >
+                    <li><a href="index.html#hh">Work Experience</a></li>
+                    <li><a href="index.html#ii">Projects</a></li>
+                    <li><a href="index.html#ff">Skills</a></li>
+                    
+                    <li><a href="index.html#rr">Educations</a></li>
+                    <li><a href="index.html#rr">Languages</a></li>
+                    <li><a href="index.html#ll">info</a></li>
+                </ul>
+                </div>
+            </nav>
+            
+            <div><a href="" class=""></a></div>
+            
+            
+           
+            
+        </header>
+        <section class="Projects" id="hh">
+            <h3 class="text-center">This is some work i have done</h3>
+            <p class="copy">On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement </p>
+            <div class="">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans.</p>
+                    
+                    </div>
+                    <div class="col-md-3">
+                        <p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans.</p>
+                    
+                    </div>
+                    <div class="col-md-3">
+                        <p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans.</p>
+                    
+                    </div>
+                    <div class="col-md-3">
+                        <p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans.</p>
+                    
+                    </div>
+                </div>
+                
+            </div>
+        
+        </section>
+        <section class="essai" id="ii">
+            <h3 class="text-center">Projects</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item">
+                    <a href="#"><img src="img/hourglass.jpeg" width="400" height="250" class="tswira"></a>
+                    
+                        <footer>
+                            <span>
+                                <a href="#">site 1</a>
+                            </span>
+                    
+                        </footer>    
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="item">
+                    <a href="#"><img src="img/hourglass.jpeg" width="400" height="250" class="tswira"></a>
+                    
+                        <footer>
+                            <span>
+                                <a href="#">site 1</a>
+                            </span>
+                    
+                        </footer>  
+                     </div>div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                    
+                        <a href="#"><img src="img/glass-grey.jpg" width="400" height="250" class="tswira"></a>
+                    
+                        <footer>
+                        
+                            <span>
+                            
+                                <a href="#">site 2</a>
+                        
+                            </span>
+                    
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="item">
+                    <a href="#"><img src="img/aurora1.jpg" width="400" height="250" class="tswira"></a>
+                    
+                        <footer>
+                            <span>
+                                <a href="#">site 1</a>
+                            </span>
+                    
+                        </footer>    
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="item">
+                    
+                        <a href="#"><img src="img/glass-grey.jpg" width="400" height="250" class="tswira"></a>
+                    
+                        <footer>
+                        
+                            <span>
+                            
+                                <a href="#">site 2</a>
+                        
+                            </span>
+                    
+                        </footer>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                    
+                        <a href="#"><img src="img/kissane.jpg" width="400" height="250" class="tswira"></a>
+                    
+                        <footer>
+                        
+                            <span>
+                            
+                                <a href="#">site 2</a>
+                        
+                            </span>
+                    
+                        </footer>
+                    </div>
+                </div>
+            </div>
+           
+        
+        </section>
+        <section id="ff">
+            <h3 class="text-center">skills</h3>
+            <div class="container ">
+                            <h5 class="bar-title">R & Python </h5>
+                            <div class="bar">
+                                <div class="bar-inner " data-percent="90%"></div>
+                            </div>
+                            <h5 class="bar-title">JS</h5>
+                            <div class="bar">
+                                <div class="bar-inner " data-percent="80%"></div>
+                            </div>
+                            <h5 class="bar-title">Machine learning</h5>
+                            <div class="bar">
+                                <div class="bar-inner " data-percent="60%"></div>
+                            </div>
+                            <h5 class="bar-title">statistical analysis</h5>
+                            <div class="bar">
+                                <div class="bar-inner " data-percent="70%"></div>
+                            </div>
+                        </div>
+            <script src="js/main.js"></script>
+        </section>
+        
+       <section class="essai essai1" id="rr">
+            
+           <div class="row">
+               <div class="col-sm-6"> 
+                   <h3 class="text-center">Education</h3>
+                        <div class="content">
+                            <div class="item">                      
+                                <h4 class="title"><i class="fa fa-graduation-cap"></i> MSc Psychology and Computer Science</h4>
+                                <h5 class="level">University College London <span class="year">(2011-2012)</span></h5>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h4 class="title"><i class="fa fa-graduation-cap"></i> BSc Computer Science</h4>
+                                <h5 class="level">University of Bristol <span class="year">(2008-2011)</span></h5>
+                            </div><!--//item-->
+                        </div><!--//content--></div>
+                   
+               <div class="col-sm-6" >         
+                    <h3 class="text-center">Languages</h3>
+                    <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>Arabic:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title">French<strong>:</strong></span>
+                                    <span class="level">Bilingual <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>  </span>
+                                </li>
+                                <li class="item">
+                                    <span class="title"><strong>Spanish & german </strong></span>
+                                    <span class="level">beginner <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star-half"></i> </span>
+                                </li>
+                            </ul>
+                        <!--//content-->
+                    </div>  
+                    </div>
+               
+            </div>
+            
+        </section>
+        
+        
+        
+         <footer id="ll">
+            <h3 class="text-center"><p>Proudly hosted on <a class ="rose" href="#">GitHub</a>.<br>Designed and coded <a class ="rose">with ♥</a> by myself.</p></h3>
+            
+            <div class="text-center space">
+                <ul class="social list-inline">
+                    <li><a href="#"><i class="fa fa-twitter rose"></i></a></li>                   
+                    <li><a href="#"><i class="fa fa-google rose"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin rose"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github-alt rose"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope rose"></i></a></li> 
+                                    
+                </ul>
+      
+                
+            </div>
+            </footer>
+        
+    </body>
+</html>
